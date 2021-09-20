@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Category___en",
+    "path": "/Category",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Category.vue",
+    "chunkName": "pages/Category",
+    "_name": "_0ef88b25"
+  },
+  {
+    "name": "Checkout___en",
+    "path": "/Checkout",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-Billing___en",
+        "path": "Billing",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Billing.vue",
+        "chunkName": "pages/Checkout/Billing",
+        "_name": "_5668f88e"
+      },
+      {
+        "name": "Checkout-Payment___en",
+        "path": "Payment",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment",
+        "_name": "_737ad5c4"
+      },
+      {
+        "name": "Checkout-Shipping___en",
+        "path": "Shipping",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping",
+        "_name": "_045f29e0"
+      },
+      {
+        "name": "Checkout-ThankYou___en",
+        "path": "ThankYou",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou",
+        "_name": "_242614f2"
+      }
+    ],
+    "_name": "_4cbfb76d"
+  },
+  {
+    "name": "checkout___en",
+    "path": "/checkout",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___en",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Billing.vue",
+        "_name": "_5668f88e"
+      },
+      {
+        "path": "payment",
+        "name": "payment___en",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Payment.vue",
+        "_name": "_737ad5c4"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___en",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Shipping.vue",
+        "_name": "_045f29e0"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___en",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/ThankYou.vue",
+        "_name": "_242614f2"
+      }
+    ],
+    "_name": "_4cbfb76d"
+  },
+  {
+    "name": "ContactUs___en",
+    "path": "/ContactUs",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/ContactUs.vue",
+    "chunkName": "pages/ContactUs",
+    "_name": "_32bb7c72"
+  },
+  {
+    "name": "home___de",
+    "path": "/de",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Home.vue",
+    "_name": "_f8f0ebf4"
+  },
+  {
+    "name": "Home___en",
+    "path": "/Home",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_f8f0ebf4"
+  },
+  {
+    "name": "MyAccount___en",
+    "path": "/MyAccount",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-AdressBook___en",
+        "path": "AdressBook",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/AdressBook.vue",
+        "chunkName": "pages/MyAccount/AdressBook",
+        "_name": "_08015eb4"
+      },
+      {
+        "name": "MyAccount-BillingDetails___en",
+        "path": "BillingDetails",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails",
+        "_name": "_17c178fc"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___en",
+        "path": "LoyaltyCard",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard",
+        "_name": "_07ac2ade"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___en",
+        "path": "MyNewsletter",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter",
+        "_name": "_361d850c"
+      },
+      {
+        "name": "MyAccount-MyProfile___en",
+        "path": "MyProfile",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile",
+        "_name": "_39c04490"
+      },
+      {
+        "name": "MyAccount-MyReviews___en",
+        "path": "MyReviews",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews",
+        "_name": "_2aa2bf2a"
+      },
+      {
+        "name": "MyAccount-OrderHistory___en",
+        "path": "OrderHistory",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory",
+        "_name": "_7f93424a"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___en",
+        "path": "ShippingDetails",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails",
+        "_name": "_df6de362"
+      }
+    ],
+    "_name": "_f35d076c"
+  },
+  {
+    "name": "Product___en",
+    "path": "/Product",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Product.vue",
+    "chunkName": "pages/Product",
+    "_name": "_09c99798"
+  },
+  {
+    "name": "Category___de",
+    "path": "/de/Category",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Category.vue",
+    "chunkName": "pages/Category",
+    "_name": "_0ef88b25"
+  },
+  {
+    "name": "Checkout___de",
+    "path": "/de/Checkout",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout.vue",
+    "chunkName": "pages/Checkout",
+    "children": [
+      {
+        "name": "Checkout-Billing___de",
+        "path": "Billing",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Billing.vue",
+        "chunkName": "pages/Checkout/Billing",
+        "_name": "_5668f88e"
+      },
+      {
+        "name": "Checkout-Payment___de",
+        "path": "Payment",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Payment.vue",
+        "chunkName": "pages/Checkout/Payment",
+        "_name": "_737ad5c4"
+      },
+      {
+        "name": "Checkout-Shipping___de",
+        "path": "Shipping",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Shipping.vue",
+        "chunkName": "pages/Checkout/Shipping",
+        "_name": "_045f29e0"
+      },
+      {
+        "name": "Checkout-ThankYou___de",
+        "path": "ThankYou",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/ThankYou.vue",
+        "chunkName": "pages/Checkout/ThankYou",
+        "_name": "_242614f2"
+      }
+    ],
+    "_name": "_4cbfb76d"
+  },
+  {
+    "name": "checkout___de",
+    "path": "/de/checkout",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout.vue",
+    "children": [
+      {
+        "path": "billing",
+        "name": "billing___de",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Billing.vue",
+        "_name": "_5668f88e"
+      },
+      {
+        "path": "payment",
+        "name": "payment___de",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Payment.vue",
+        "_name": "_737ad5c4"
+      },
+      {
+        "path": "shipping",
+        "name": "shipping___de",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/Shipping.vue",
+        "_name": "_045f29e0"
+      },
+      {
+        "path": "thank-you",
+        "name": "thank-you___de",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/Checkout/ThankYou.vue",
+        "_name": "_242614f2"
+      }
+    ],
+    "_name": "_4cbfb76d"
+  },
+  {
+    "name": "ContactUs___de",
+    "path": "/de/ContactUs",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/ContactUs.vue",
+    "chunkName": "pages/ContactUs",
+    "_name": "_32bb7c72"
+  },
+  {
+    "name": "Home___de",
+    "path": "/de/Home",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_f8f0ebf4"
+  },
+  {
+    "name": "MyAccount___de",
+    "path": "/de/MyAccount",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount.vue",
+    "chunkName": "pages/MyAccount",
+    "children": [
+      {
+        "name": "MyAccount-AdressBook___de",
+        "path": "AdressBook",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/AdressBook.vue",
+        "chunkName": "pages/MyAccount/AdressBook",
+        "_name": "_08015eb4"
+      },
+      {
+        "name": "MyAccount-BillingDetails___de",
+        "path": "BillingDetails",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/BillingDetails.vue",
+        "chunkName": "pages/MyAccount/BillingDetails",
+        "_name": "_17c178fc"
+      },
+      {
+        "name": "MyAccount-LoyaltyCard___de",
+        "path": "LoyaltyCard",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/LoyaltyCard.vue",
+        "chunkName": "pages/MyAccount/LoyaltyCard",
+        "_name": "_07ac2ade"
+      },
+      {
+        "name": "MyAccount-MyNewsletter___de",
+        "path": "MyNewsletter",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyNewsletter.vue",
+        "chunkName": "pages/MyAccount/MyNewsletter",
+        "_name": "_361d850c"
+      },
+      {
+        "name": "MyAccount-MyProfile___de",
+        "path": "MyProfile",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyProfile.vue",
+        "chunkName": "pages/MyAccount/MyProfile",
+        "_name": "_39c04490"
+      },
+      {
+        "name": "MyAccount-MyReviews___de",
+        "path": "MyReviews",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/MyReviews.vue",
+        "chunkName": "pages/MyAccount/MyReviews",
+        "_name": "_2aa2bf2a"
+      },
+      {
+        "name": "MyAccount-OrderHistory___de",
+        "path": "OrderHistory",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/OrderHistory.vue",
+        "chunkName": "pages/MyAccount/OrderHistory",
+        "_name": "_7f93424a"
+      },
+      {
+        "name": "MyAccount-ShippingDetails___de",
+        "path": "ShippingDetails",
+        "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount/ShippingDetails.vue",
+        "chunkName": "pages/MyAccount/ShippingDetails",
+        "_name": "_df6de362"
+      }
+    ],
+    "_name": "_f35d076c"
+  },
+  {
+    "name": "Product___de",
+    "path": "/de/Product",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Product.vue",
+    "chunkName": "pages/Product",
+    "_name": "_09c99798"
+  },
+  {
+    "name": "my-account___de",
+    "path": "/de/my-account/:pageName?",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount.vue",
+    "_name": "_f35d076c"
+  },
+  {
+    "name": "product___de",
+    "path": "/de/p/:id/:slug",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Product.vue",
+    "_name": "_09c99798"
+  },
+  {
+    "name": "category___de",
+    "path": "/de/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Category.vue",
+    "_name": "_0ef88b25"
+  },
+  {
+    "name": "my-account___en",
+    "path": "/my-account/:pageName?",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/MyAccount.vue",
+    "_name": "_f35d076c"
+  },
+  {
+    "name": "product___en",
+    "path": "/p/:id/:slug",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Product.vue",
+    "_name": "_09c99798"
+  },
+  {
+    "name": "category___en",
+    "path": "/c/:slug_1/:slug_2?/:slug_3?/:slug_4?/:slug_5?",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Category.vue",
+    "_name": "_0ef88b25"
+  },
+  {
+    "name": "home___en",
+    "path": "/",
+    "component": "/Applications/MAMP/htdocs/storefront/pages/Home.vue",
+    "_name": "_f8f0ebf4"
+  }
+]
