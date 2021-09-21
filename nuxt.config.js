@@ -138,6 +138,14 @@ export default {
     ]
   },
   build: {
+    loaders: {
+      ts: {
+        transpileOnly: true,
+      },
+      tsx: {
+        transpileOnly: true,
+      }
+    },
     transpile: ['vee-validate/dist/rules'],
     plugins: [
       new webpack.DefinePlugin({

@@ -10960,7 +10960,7 @@ const staticPath = "/Applications/MAMP/htdocs/storefront/.nuxt/static-json";
 const staticCache = {};
 
 function writeFile(key, value) {
-  if (false) {}
+  if (true) return;
   const {
     writeFileSync
   } =  false ? undefined : __webpack_require__(221);
@@ -16782,7 +16782,7 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: true,
+      isStatic: false,
       isDev: false,
       isHMR: false,
       app,
@@ -21727,10 +21727,6 @@ const layouts = {
 
     isFetching() {
       return this.nbFetching > 0;
-    },
-
-    isPreview() {
-      return Boolean(this.$options.previewData);
     }
 
   },
@@ -23989,9 +23985,7 @@ external_vue_default.a.use(external_vue_i18n_default.a);
 
   const getRedirectPathForLocale = (route, locale) => {
     // Redirects are ignored if it is a nuxt generate.
-    if (true) {
-      return '';
-    }
+    if (false) {}
 
     if (!locale || app.i18n.differentDomains || options_options.strategy === Constants.STRATEGIES.NO_PREFIX) {
       return '';
@@ -24101,9 +24095,7 @@ external_vue_default.a.use(external_vue_i18n_default.a);
 
   const doDetectBrowserLanguage = route => {
     // Browser detection is ignored if it is a nuxt generate.
-    if (true) {
-      return '';
-    }
+    if (false) {}
 
     if (options_options.strategy !== Constants.STRATEGIES.NO_PREFIX) {
       if (onlyOnRoot) {
@@ -24714,66 +24706,6 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "name": "generator",
         "content": "Vue Storefront 2"
-      }, {
-        "hid": "charset",
-        "charset": "utf-8"
-      }, {
-        "hid": "mobile-web-app-capable",
-        "name": "mobile-web-app-capable",
-        "content": "yes"
-      }, {
-        "hid": "apple-mobile-web-app-title",
-        "name": "apple-mobile-web-app-title",
-        "content": "VSF Next: Shopify APP"
-      }, {
-        "hid": "author",
-        "name": "author",
-        "content": "Aureate labs"
-      }, {
-        "hid": "og:type",
-        "name": "og:type",
-        "property": "og:type",
-        "content": "website"
-      }, {
-        "hid": "og:title",
-        "name": "og:title",
-        "property": "og:title",
-        "content": "VSF Next: Shopify APP"
-      }, {
-        "hid": "og:site_name",
-        "name": "og:site_name",
-        "property": "og:site_name",
-        "content": "VSF Next: Shopify APP"
-      }, {
-        "hid": "og:description",
-        "name": "og:description",
-        "property": "og:description",
-        "content": "This is the Shopify PWA app for VSF Next - Developed by Aureate labs"
-      }, {
-        "hid": "og:url",
-        "name": "og:url",
-        "property": "og:url",
-        "content": "shopify-pwa-beta.aureatelabs.com"
-      }, {
-        "hid": "og:image",
-        "name": "og:image",
-        "property": "og:image",
-        "content": "shopify-pwa-beta.aureatelabs.com\u002F_nuxt\u002Ficons\u002Ficon_512x512.03acdc.png"
-      }, {
-        "hid": "og:image:width",
-        "name": "og:image:width",
-        "property": "og:image:width",
-        "content": 512
-      }, {
-        "hid": "og:image:height",
-        "name": "og:image:height",
-        "property": "og:image:height",
-        "content": 512
-      }, {
-        "hid": "og:image:type",
-        "name": "og:image:type",
-        "property": "og:image:type",
-        "content": "image\u002Fpng"
       }],
       "link": [{
         "rel": "icon",
@@ -24792,25 +24724,9 @@ async function createApp(ssrContext, config = {}) {
         "href": "https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Raleway:300,400,400i,500,600,700|Roboto:300,300i,400,400i,500,700&display=swap",
         "media": "print",
         "onload": "this.media='all'"
-      }, {
-        "hid": "shortcut-icon",
-        "rel": "shortcut icon",
-        "href": "\u002Ficons\u002Fandroid-icon-48x48.png"
-      }, {
-        "hid": "apple-touch-icon",
-        "rel": "apple-touch-icon",
-        "href": "\u002F_nuxt\u002Ficons\u002Ficon_512x512.03acdc.png",
-        "sizes": "512x512"
-      }, {
-        "rel": "manifest",
-        "href": "\u002F_nuxt\u002Fmanifest.244f73ab.json",
-        "hid": "manifest"
       }],
       "style": [],
-      "script": [],
-      "htmlAttrs": {
-        "lang": "en"
-      }
+      "script": []
     },
     router,
     nuxt: {
